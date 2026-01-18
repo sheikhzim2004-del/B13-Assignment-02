@@ -1,0 +1,45 @@
+/* large device responsive */
+@media screen and (min-width: 992px){
+
+}
+
+
+/* laptop device responsive */
+@media screen and (max-width: 992px){
+
+}
+
+/* small / mobile device responsive */
+@media screen and (max-width: 576px){
+
+    /* --nav-- */
+    .nav-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .nav-icon a{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-humber{
+        display: block;
+    }
+    /* --banner-- */
+    .mic{
+        top: 20%;
+        left: 39%;
+    }
+    .badge{
+        top: 3%;
+        left: 65%;
+    }
+    .banner-contant h1{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .btn-box .btn{
+        display: block;
+    }
+}
