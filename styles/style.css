@@ -11,9 +11,13 @@
   color: white;
 }
 /* --comon css-- */
-nav{
-    max-width: 1200px;
+nav, main{
+    max-width: 75%;
     margin: 0 auto;
+}
+.text-bold{
+    font-size: 3rem;
+    font-weight: 700;
 }
 .text-grey{
     color: rgba(255, 255, 255, 0.658);
@@ -57,24 +61,31 @@ nav{
     height: 760px;
     border: 2px solid tomato;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .banner-container{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.banner-img .circle{
-    margin-bottom: 40px;
-}
-.banner-img{
-
+.banner-circle{
+    background-image: url(../assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    height: 350px;
+    width: 350px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
-.mic{
-    position: absolute;
-    top: 20%;
-    left: 47%;
-}
+.banner-circle img{
+        height: 175px;
+        width: 116px;
+    }
 .badge{
     background-color: #00FF88;
     width: 75px;
@@ -83,8 +94,8 @@ nav{
     border-radius: 50px;
     box-shadow: 0 0 10px 1px #00FF88;
     position: absolute;
-    top: 1%;
-    left: 53%;
+    top: 2%;
+    left: 70%;
 }
 .banner-contant h1{
     font-size: 3.8rem;
@@ -110,4 +121,35 @@ nav{
     font-weight: 600;
     border: 2px solid #00FF88 ;
     border-radius: 50px;
+    cursor: pointer;
+}
+/* =====header section end===== */
+
+/* =====main section start===== */
+/* --about-- */
+.about{
+    margin-top: 50px;
+    text-align: center;
+}
+.about-container h2{
+    margin-bottom: 16px;
+}
+main hr{
+    margin: 80px auto;
+    opacity: 0.1;
+}
+.about-cardbox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 120px;
+}
+.card h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00FF88;
+}
+.card p{
+    color: rgba(255, 255, 255, 0.658);
+    line-height: 20px;
+    margin-top: 16px;
 }

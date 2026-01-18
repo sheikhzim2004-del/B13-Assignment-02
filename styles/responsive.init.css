@@ -14,8 +14,11 @@
 
     /* --nav-- */
     .nav-container{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .nav-container img {
+        width: 137px;
     }
     .nav-icon a{
         display: none;
@@ -27,6 +30,15 @@
         display: block;
     }
     /* --banner-- */
+    
+    .banner-circle{
+        height: 200px;
+        width: 200px;
+    }
+    .banner-circle img{
+        height: 70px;
+        width: 47px;
+    }
     .mic{
         top: 20%;
         left: 39%;
@@ -42,4 +54,20 @@
     .btn-box .btn{
         display: block;
     }
+
+    /* --about section-- */
+    .about{
+        margin: 10px 16px auto 16px;
+    }
+    .text-bold{
+        font-size: 2rem;
+    }
+    .card h1{
+        font-size: 2.5rem;
+    }
+    .about-cardbox{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    }
+
 }
