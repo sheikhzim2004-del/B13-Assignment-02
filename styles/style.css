@@ -11,7 +11,7 @@
   color: white;
 }
 /* --comon css-- */
-nav, main{
+nav, .choose-container{
     max-width: 75%;
     margin: 0 auto;
 }
@@ -152,4 +152,45 @@ main hr{
     color: rgba(255, 255, 255, 0.658);
     line-height: 20px;
     margin-top: 16px;
+}
+
+/* --choose-- */
+.choose{
+    background-color: #230E3D;
+}
+.grid-container{
+    gap: 30px;
+    padding-bottom: 120px;
+    display: grid;
+}
+.choose-contant{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.grid-container h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.grid-container .grid-card-all{
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 107px 40px;
+    border-radius: 40px;
+}
+
+.grid-card-1{grid-area: box-1;}
+.grid-card-2{grid-area: box-2;}
+.grid-card-3{grid-area: box-3;}
+.grid-card-4{grid-area: box-4;}
+.grid-card-5{grid-area: box-5;}
+
+
+.grid-container{
+    grid-template-areas: 
+    'box-1 box-2 box-2'
+    'box-1 box-3 box-3'
+    'box-4 box-4 box-5'
+    ;
 }
