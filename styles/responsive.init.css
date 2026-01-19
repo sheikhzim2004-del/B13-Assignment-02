@@ -101,6 +101,12 @@
     .meet-icon{
         justify-content: center;  
     }
+
+    /* --footer section-- */
+    .footer-icon{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
     
 
 }
