@@ -11,7 +11,7 @@
   color: white;
 }
 /* --comon css-- */
-nav, .choose-container, .about, .feature{
+nav, .choose-container, .about, .feature, .meet{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -237,4 +237,42 @@ main hr{
 .time h6{
     font-weight: 600;
     margin-left: 5px;
+}
+
+
+/* --meet section-- */
+.meet h1{
+    text-align: center;
+}
+.meet-container{
+    background-color: #533C72;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.meet-contant h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.meet-contant p{
+    margin: 16px auto;
+}
+.meet-icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.meet-icon a{
+    border: 2px solid rgba(255, 0, 0, 0.185);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.meet-icon a:hover{
+    background-color: rgba(178, 184, 178, 0.63);
 }

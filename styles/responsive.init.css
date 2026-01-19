@@ -13,7 +13,7 @@
 @media screen and (max-width: 576px){
 
     /* --common-- */
-    nav, .choose-container, .about, .feature{
+    nav, .choose-container, .about, .feature, .meet{
     max-width: 1200px;
     margin: 0 30px;
     }
@@ -86,6 +86,20 @@
     .fram-card-box{
         flex-direction: column;
         align-items: center;
+    }
+
+    /* --meet section-- */
+    .meet-container{
+        flex-direction: column;
+    }
+    .meet-contant{
+        text-align: center;
+    }
+    .meet, .feature{
+        margin-top: 40px;
+    }
+    .meet-icon{
+        justify-content: center;  
     }
     
 
