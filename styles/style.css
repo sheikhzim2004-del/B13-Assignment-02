@@ -58,7 +58,6 @@ nav, .choose-container, .about, .feature, .meet{
 .banner{
     background-image: url(../assets/hero-bg.png);
     width: 100%;
-    height: 760px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
