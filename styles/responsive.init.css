@@ -83,6 +83,9 @@
     }
 
     /* --feature section-- */
+    .fram-card{
+    width: 100%;
+}
     .fram-card-box{
         flex-direction: column;
         align-items: center;

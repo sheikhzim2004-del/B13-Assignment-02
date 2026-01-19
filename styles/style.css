@@ -51,6 +51,10 @@ nav, .choose-container, .about, .feature, .meet{
     font-weight: 500;
     cursor: pointer;
     background: linear-gradient(30deg,#F7E93F, #FB09B4, #9100F8);
+    transition: transform 0.4s ease;
+}
+.btn:hover{
+    transform: scale(1.1);
 }
 .nav-humber{
     display: none;
@@ -84,6 +88,7 @@ nav, .choose-container, .about, .feature, .meet{
     align-items: center;
     margin: auto;
 }
+
 .banner-circle img{
         height: 175px;
         width: 116px;
@@ -98,6 +103,25 @@ nav, .choose-container, .about, .feature, .meet{
     position: absolute;
     top: 2%;
     left: 70%;
+}
+#animation{
+    animation: rotatextext 3s infinite ;
+    display: inline-block;
+}
+@keyframes rotatextext{
+    0%{
+        opacity: 0;
+        transform: rotatey(90deg);
+        color: #FB09B4;
+    }
+    50%{
+        transform: rotatey(-20deg);
+        color: #f77ad1;
+    }
+    100% {
+        transform: rotatey(0deg);
+        
+    }
 }
 .banner-contant h1{
     font-size: 3.8rem;
@@ -124,6 +148,12 @@ nav, .choose-container, .about, .feature, .meet{
     border: 2px solid #00FF88 ;
     border-radius: 50px;
     cursor: pointer;
+    transition: transform 0.4s ease;
+}
+.btn-three:hover{
+    transform: scale(1.1);
+    color: greenyellow;
+    border-color: greenyellow;
 }
 /* =====header section end===== */
 
@@ -178,7 +208,7 @@ main hr{
 }
 .grid-container .grid-card-all{
     background-color: rgba(53, 17, 101, 0.4);
-    padding: 107px 40px;
+    padding: 40px 40px;
     border-radius: 40px;
 }
 
@@ -276,9 +306,7 @@ main hr{
     height: 40px;
     border-radius: 50%;
 }
-.meet-icon a:hover{
-    background-color: rgba(178, 184, 178, 0.63);
-}
+
 /* =====main section end===== */
 
 
