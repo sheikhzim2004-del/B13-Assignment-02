@@ -39,6 +39,10 @@ nav, .choose-container, .about, .feature, .meet{
     font-size: 1.125rem;
     font-weight: 500;
 }
+.nav-icon a:hover{
+    background-color: white;
+    color: #230E3D;
+}
 .btn{
     padding: 12px 16px;
     border: none;
@@ -64,8 +68,8 @@ nav, .choose-container, .about, .feature, .meet{
 }
 .banner-container{
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    padding: 100px 0;
 }
 .banner-circle{
     background-image: url(../assets/hero-circle.png);

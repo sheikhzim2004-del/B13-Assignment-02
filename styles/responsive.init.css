@@ -103,6 +103,9 @@
     }
 
     /* --footer section-- */
+    footer{
+        padding: 30px;
+    }
     .footer-icon{
         flex-wrap: wrap;
         gap: 10px;
