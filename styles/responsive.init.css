@@ -12,6 +12,11 @@
 /* small / mobile device responsive */
 @media screen and (max-width: 576px){
 
+    /* --common-- */
+    nav, .choose-container, .about, .feature{
+    max-width: 1200px;
+    margin: 0 30px;
+    }
     /* --nav-- */
     .nav-container img {
         width: 137px;
@@ -76,5 +81,12 @@
     ;
         
     }
+
+    /* --feature section-- */
+    .fram-card-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    
 
 }

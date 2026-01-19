@@ -11,8 +11,8 @@
   color: white;
 }
 /* --comon css-- */
-nav, .choose-container{
-    max-width: 75%;
+nav, .choose-container, .about, .feature{
+    max-width: 1200px;
     margin: 0 auto;
 }
 .text-bold{
@@ -193,4 +193,49 @@ main hr{
     'box-1 box-3 box-3'
     'box-4 box-4 box-5'
     ;
+}
+
+/* --feature section-- */
+.feature{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.feature h1{
+    text-align: center;
+}
+.fram-card-box{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    width: 100%;
+}
+.fram-card{
+    background-color: #250D44;
+    border-radius: 30px;
+    width: 380px;
+}
+.fram-card iframe{
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.feature-contant{
+    padding: 24px;
+}
+.feature-contant h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.feature-contant p{
+    margin: 12px auto 12px auto;
+}
+.feature-contant .time{
+    display: flex;
+    color: #00FF88;
+    align-items: center;
+    
+}
+.time h6{
+    font-weight: 600;
+    margin-left: 5px;
 }
