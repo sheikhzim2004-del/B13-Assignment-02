@@ -47,6 +47,8 @@ nav, .choose-container, .about, .feature, .meet{
     color: white;
     padding: 12px 16px;
     border: none;
+    align-items: center;
+    display: flex;
     border-radius: 50px;
     font-size: 1.125rem;
     font-weight: 500;
@@ -235,6 +237,17 @@ main hr{
     transform: scale(1.01);
     box-shadow: 0px 0px 5px 5px #9100F8;
 }
+.grid-card-all:hover .vibrate{
+    animation: rotatevibrate 1s linear;
+}
+@keyframes rotatevibrate{
+    0% {transform: rotate(0deg);}
+    20% {transform: rotate(-6deg);}
+    40% {transform: rotate(6deg);}
+    60% {transform: rotate(-6deg);}
+    80% {transform: rotate(6deg);}
+    100% {transform: rotate(0deg);}
+}
 
 .grid-card-1{grid-area: box-1;}
 .grid-card-2{grid-area: box-2;}
@@ -302,7 +315,7 @@ main hr{
     text-align: center;
 }
 .meet-container{
-    background-color: #533C72;
+    background-color: #250D44;
     display: flex;
     gap: 24px;
     align-items: center;
