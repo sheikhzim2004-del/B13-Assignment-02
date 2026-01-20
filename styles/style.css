@@ -92,7 +92,24 @@ nav, .choose-container, .about, .feature, .meet{
 .banner-circle img{
         height: 175px;
         width: 116px;
+        transform: translate();
+        animation: floating 3s ease-in-out infinite;
+}
+@keyframes floating{
+    0%{
+        transform: translatex(0px);
     }
+    30%{
+        transform: translatex(-10px);
+    }
+    70% {
+        transform: translatex(10px);
+    }
+    100% {
+        transform: translatex(0px);
+    }
+}
+
 .badge{
     background-color: #00FF88;
     width: 75px;
@@ -210,6 +227,11 @@ main hr{
     background-color: rgba(53, 17, 101, 0.4);
     padding: 40px 40px;
     border-radius: 40px;
+    transition: all 0.3s ease;
+}
+.grid-container .grid-card-all:hover{
+    
+    transform: scale(1.01);
 }
 
 .grid-card-1{grid-area: box-1;}
