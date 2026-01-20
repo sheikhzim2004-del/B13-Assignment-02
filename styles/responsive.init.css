@@ -1,10 +1,10 @@
-/* large device responsive */
+                              /* large device responsive */
 @media screen and (min-width: 992px){
 
 }
 
 
-/* laptop device responsive */
+                           /* laptop device responsive */
 @media screen and (max-width: 992px){
 
     nav, .choose-container, .about, .feature, .meet{
@@ -42,7 +42,7 @@
     
 }
 
-/* small / mobile device responsive */
+                         /* small / mobile device responsive */
 @media screen and (max-width: 576px){
 
     /* --common-- */
