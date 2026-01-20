@@ -67,6 +67,9 @@
         display: block;
     }
     /* --banner-- */
+    .banner-contant{
+        margin: 0 10px;
+    }
    
     .banner-circle{
         height: 200px;
